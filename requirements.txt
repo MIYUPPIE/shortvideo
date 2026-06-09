@@ -1,0 +1,6 @@
+# Python deps for the SHORTVIDEO pipeline.
+# The tf_gpu conda env already provides torch (CUDA) + ctranslate2 + cuDNN.
+# System: ffmpeg + ffprobe must be on PATH; the local `claude` CLI is used for
+# the LLM step (no hosted API).
+faster-whisper>=1.2,<2
+pytest>=8

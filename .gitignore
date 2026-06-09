@@ -1,0 +1,17 @@
+# Generated media + pipeline outputs (never commit binaries)
+*.mp4
+*.mkv
+*.mov
+*.wav
+*.mp3
+*.srt
+out/
+out_demo/
+reels/
+assets/*.mp4
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
